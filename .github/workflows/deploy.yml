@@ -1,0 +1,11 @@
+name: Déploiement GitHub Pages
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+    contents: write
+
+jobs:
+  deploy:
